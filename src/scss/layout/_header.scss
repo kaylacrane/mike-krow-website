@@ -1,13 +1,97 @@
-.page__header {
+.header {
   position: absolute;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
   height: 100vh;
   width: 100%;
-  background-color: aliceblue;
+  background-color: $color-white;
   z-index: 5;
+  transition: all 1s ease;
+  &--menu {
+    height: 380px;
+    width: 280px;
+    position: relative;
+    transition: all 1s ease;
+    a {
+      position: absolute;
+      color: $color-white;
+      background-color: $color-grey-dark;
+      border: 2px solid $color-grey-dark;
+      padding: 10px;
+      text-decoration: none;
+      opacity: 1;
+      transition: all 1s ease;
+      text-align: center;
+      border-bottom-right-radius: 25px;
+      border-top-left-radius: 25px;
+      width: 100px;
+      &:hover {
+        background: $color-black;
+      }
+    }
+    #link-main {
+      top: 0;
+      left: 0;
+      transform: rotateZ(0);
+    }
+    #link-1 {
+      top: 0;
+      right: 0;
+      transform: rotateZ(0);
+    }
+    #link-2 {
+      bottom: 0;
+      left: 0;
+      transform: rotateZ(0);
+    }
+    #link-3 {
+      bottom: 0;
+      right: 0;
+      transform: rotateZ(0);
+    }
+  }
   &--image {
     height: 200px;
-    align-self: center;
+    position: absolute;
+    transition: all 1s ease;
+  }
+}
+
+.size-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 60px;
+  .header--menu {
+    height: 100%;
+    width: 100%;
+    a {
+      opacity: 0;
+      pointer-events: none;
+    }
+    #link-main {
+      top: 50%;
+      left: 50%;
+      transform: rotateZ(360deg);
+    }
+    #link-1 {
+      top: 50%;
+      right: 50%;
+      transform: rotateZ(360deg);
+    }
+    #link-2 {
+      bottom: 50%;
+      left: 50%;
+      transform: rotateZ(360deg);
+    }
+    #link-3 {
+      bottom: 50%;
+      right: 50%;
+      transform: rotateZ(360deg);
+    }
+  }
+  .header--image {
+    height: 50px;
   }
 }
