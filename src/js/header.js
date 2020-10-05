@@ -4,7 +4,7 @@ const header = document.querySelector('.header');
 const headerLinks = header.querySelectorAll('span');
 const headerImage = header.querySelector('img');
 const page = document.querySelector('.page');
-const pageSections = document.querySelectorAll('section');
+const pageSections = document.querySelectorAll('.page-sections ');
 
 function sizeHeader(event) {
   page.classList.toggle('size-header');

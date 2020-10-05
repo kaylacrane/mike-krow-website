@@ -8,13 +8,13 @@
   height: 100vh;
   width: 100%;
   background-color: $color-white;
-  z-index: 5;
-  transition: all 1s ease;
+  z-index: 10;
+  transition: all 0.8s ease;
   &--menu {
     height: 380px;
     width: 280px;
     position: relative;
-    transition: all 1s ease;
+    transition: all 0.8s ease;
     span {
       position: absolute;
       color: $color-white;
@@ -23,7 +23,7 @@
       padding: 10px;
       text-decoration: none;
       opacity: 1;
-      transition: all 1s ease;
+      transition: all 0.8s ease;
       text-align: center;
       border-bottom-right-radius: 25px;
       border-top-left-radius: 25px;
@@ -56,7 +56,7 @@
   &--image {
     height: 200px;
     position: absolute;
-    transition: all 1s ease;
+    transition: all 0.8s ease;
   }
 }
 
@@ -64,7 +64,7 @@
   .header {
     position: fixed;
 
-    height: 60px;
+    height: 10vh;
     .header--menu {
       height: 100%;
       width: 100%;
