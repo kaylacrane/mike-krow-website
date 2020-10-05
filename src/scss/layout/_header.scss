@@ -1,0 +1,13 @@
+.page__header {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: aliceblue;
+  z-index: 5;
+  &--image {
+    height: 200px;
+    align-self: center;
+  }
+}
