@@ -3,63 +3,145 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <title>mike krow</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
+    <link rel="icon" href="./assets/images/favicon.ico" />
   </head>
 
   <body>
     <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
+      <header class="header">
+        <ul class="header--menu">
+          <span id="link-home" data-id="home">Home</span>
+          <span id="link-1" data-id="section-1">About</span>
+          <span id="link-2" data-id="section-2">Projects</span>
+          <span id="link-3" data-id="section-3">Videos</span>
+        </ul>
+        <img src="./assets/images/krowicon.png" alt="crow" class="header--image" />
       </header>
 
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
-        </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
-        </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
+      <main class="main">
+        <section class="page-sections home visible-section" data-id="home">
+          <h2 class="section-title">This is the home section</h2>
+          <p>
+            Explicabo, cumque in provident earum pariatur asperiores. Est, eligendi
+            quisquam! Doloremque quo, vitae doloribus obcaecati, perspiciatis porro
+            minima minus voluptatem optio magnam suscipit expedita iure. Quisquam animi
+            tempora sit excepturi debitis labore veritatis aliquid totam fuga explicabo,
+            provident, inventore deleniti. Deleniti ex esse et, distinctio enim, vero
+            accusamus quibusdam deserunt pariatur, illo numquam explicabo blanditiis id
+            nam rem quidem iusto minima veritatis impedit. Tempore velit, numquam sunt
+            quibusdam eius optio. Possimus, fugiat ex nobis facere accusantium alias
+            mollitia nesciunt aperiam iste assumenda expedita quas maiores pariatur
+            nulla recusandae atque est neque? Doloremque doloribus recusandae omnis
+            quia, blanditiis quis modi quas! Soluta amet tempore magnam porro quibusdam
+            velit ex, architecto, ducimus dolores eius placeat officia rem possimus
+            incidunt minus asperiores. Adipisci totam culpa consectetur repellendus amet
+            quod expedita asperiores non deleniti! Ea cumque ratione consequuntur,
+            nostrum ut, id nisi aspernatur repellendus, fuga neque eaque? Sunt quisquam,
+            perspiciatis consequatur eveniet voluptatum vel. Blanditiis ullam mollitia
+            hic totam quasi ipsum aperiam omnis nam? Laboriosam odit suscipit enim!
+            Soluta, aliquam. Odio cupiditate maiores suscipit eligendi atque dolorem
+            molestiae dicta totam incidunt quos nesciunt ad eos voluptatibus esse labore
+            cumque, sed repudiandae. Quibusdam, corporis eum!
+          </p>
+        </section>
 
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
+        <section class="page-sections about" data-id="section-1">
+          <h2 class="section-title">This is the about section</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi debitis
+            reiciendis vero nisi voluptates impedit labore sed. Quas quis suscipit totam
+            eveniet nam dignissimos, ab facere placeat vitae molestiae nostrum. Sit
+            atque laborum dolorum fuga quaerat labore modi quam natus! Neque provident
+            aperiam dolor magni recusandae nihil eius fugit labore dicta ipsa nam
+            facilis temporibus, voluptate quidem quisquam quos nesciunt? Distinctio sed
+            nemo ab quo autem repellendus sint, accusantium voluptate quia sit nam!
+            Porro atque voluptate consequuntur, sapiente delectus unde explicabo
+            aspernatur. Quos magni enim repellendus, incidunt quam ipsa iste. Nobis
+            perferendis esse nam, sed consequatur illum id assumenda, officiis
+            repellendus mollitia accusamus. Quas repudiandae dolorum illum ratione
+            veniam eius? Explicabo, cumque in provident earum pariatur asperiores. Est,
+            eligendi quisquam! Doloremque quo, vitae doloribus obcaecati, perspiciatis
+            porro minima minus voluptatem optio magnam suscipit expedit Lorem ipsum,
+            dolor sit amet consectetur adipisicing elit. Commodi debitis reiciendis vero
+            nisi voluptates impedit labore sed. Quas quis suscipit totam eveniet nam
+            dignissimos, ab facere placeat vitae molestiae nostrum. Sit atque laborum
+            dolorum fuga quaerat labore modi quam natus! Neque provident aperiam doli
+            enim repellendus, incidunt quam ipsa iste. Nobis perferendis esse nam, sed
+            consequatur illum id assumenda, officiis repellendus mollitia accusamus.
+            Quas repudiandae dolorum illum ratione veniam eius? Explicabo, cumque in
+            provident earum pariatur asperiores. Est, eligendi quisquam! Doloremque quo,
+            vitae doloribus obcaecati, perspiciatis porro minima minus voluptatem optio
+            magnam suscipit expedit Lorem ipsum, dolor sit amet consectetur adipisicing
+            elit. Commodi debitis reiciendis vero nisi voluptates impedit labore sed.
+            Quas quis suscipit totam eveniet nam dignissimos, ab facere placeat vitae
+            molestiae nostrum. Sit atque laborum dolorum fuga quaerat labore modi quam
+            natus! Neque provident aperiam dolor magni recusandae nihil eius fugit
+            labore dicta ipsa nam facilis temporibus, voluptate quidem quisquam quos
+            nesciunt? Distinctio sed nemo ab quo autem repellendus sint, accusantium
+            voluptate quia sit nam! Porro atque voluptate consequuntur, sapiente
+            delectus unde explicabo aspernatur. Quos magni enim repellendus, incidunt
+            quam ipsa iste. Nobis perferendis esse nam, sed consequatur illum id
+            assumenda, officiis repellendus mollitia accusamus. Quas repudiandae dolorum
+            illum ratione veniam eius? Explicabo, cumque in provident earum pariatur
+            asperiores. Est, eligendi quisquam! Doloremque quo, vitae doloribus
+            obcaecati, perspiciatis porro minima minus voluptatem optio magnam suscipit
+            expedita iure. Quisquam animi tempora sit excepturi debitis labore veritatis
+            aliquid totam fuga explicabo, provident, inventore deleniti. Deleniti ex
+            esse et, distinctio enim, vero accusamus quibusdam deserunt pariatur, illo
+            numquam explicabo blanditiis id nam rem quidem iusto minima veritatis
+            impedit. Tempore velit, numquam sunt quibusdam eius optio. Possimus, fugiat
+            ex nobis facere accusantium alias mollitia nesciunt aperiam iste assumenda
+            expedita quas maiores pariatur nulla recusandae atque est neque? Doloremque
+            doloribus recusandae omnis quia, blanditiis quis modi quas! Soluta amet
+            tempore magnam porro quibusdam velit ex, architecto, ducimus dolores eius
+            placeat officia rem possimus incidunt minus asperiores. Adipisci totam culpa
+            consectetur repellendus amet quod expedita asperiores non deleniti! Ea
+            cumque ratione consequuntur, nostrum ut, id nisi aspernatur repellendus,
+            fuga neque eaque? Sunt quisquam, perspiciatis consequatur eveniet voluptatum
+            vel. Blanditiis ullam mollitia hic totam quasi ipsum aperiam omnis nam?
+            Laboriosam odit suscipit enim! Soluta, aliquam. Odio cupiditate maiores
+            suscipit eligendi atque dolorem molestiae dicta totam incidunt quos nesciunt
+            ad eos voluptatibus esse labore cumque, sed repudiandae. Quibusdam, corporis
+            eum!
+          </p>
+        </section>
 
-          </li>
-        </ul>
+        <section class="page-sections projects" data-id="section-2">
+          <h2 class="section-title">This is the projects section</h2>
+          <article class="project-card">
+            <h3 class="project-title">Project Title</h3>
+            <div class="image-container">
+              <img src="https://placekitten.com/300/300" alt="" />
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsum
+              laboriosam architecto neque pariatur aliquam alias consequuntur, odio ex
+              enim? Culpa, nemo. Doloremque odio ipsam, nobis hic impedit atque
+              consequatur.
+            </p>
+          </article>
+        </section>
+
+        <section class="page-sections videos" data-id="section-3">
+          <h2 class="section-title">videos section</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse non, magni suscipit reprehenderit dolorum labore, consectetur, accusantium maxime recusandae libero repudiandae quaerat voluptatum! Perspiciatis obcaecati neque dolor soluta nemo fuga.
+          Vero aut, architecto perspiciatis voluptatibus eum ratione quod earum modi recusandae labore unde suscipit delectus fugiat voluptatem dolores error tempore reprehenderit? Magnam repudiandae nam cumque reiciendis esse adipisci minima. Repellendus.
+          Atque sed, magni quos magnam, asperiores molestias ut tempore deleniti laudantium eligendi fugit commodi eaque! Corporis neque soluta nemo numquam, aspernatur atque maiores accusantium pariatur eius? Quod nobis officia illum.
+          Sunt nam unde nostrum impedit velit, distinctio provident pariatur? Id amet nostrum ratione provident dicta dolore corrupti placeat voluptates, voluptate exercitationem iure ducimus laudantium, repudiandae inventore? Rerum, soluta! Nemo, pariatur!
+          Consectetur tempore, aliquid quod nobis quam dignissimos odio ad sequi reprehenderit ipsum eaque est officiis, harum obcaecati, repellendus voluptatum mollitia accusamus eligendi inventore eius. Tempore libero temporibus tenetur enim ipsa?</p>
+          
+        </main>
+
       </main>
 
       <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-        </small>
+        <small> &copy; All rights reserved </small>
       </footer>
 
     </div>

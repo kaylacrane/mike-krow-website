@@ -1,0 +1,26 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  .project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    .project-title {
+      padding: 10px 0;
+    }
+    .image-container {
+      margin: auto;
+      height: 250px;
+      width: 250px;
+      overflow: hidden;
+      img {
+        margin: auto;
+        max-width: 100%;
+        max-height: 100%;
+      }
+    }
+  }
+}
