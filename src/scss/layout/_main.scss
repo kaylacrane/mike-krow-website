@@ -1,39 +1,33 @@
 .page {
   height: 100vh;
-  background: lightpink;
   overflow: hidden;
   .main {
     position: relative;
     font-family: $font-main;
-    padding: 0px 10px 20px;
+    padding: 10vh 15px 40px;
     height: 100%;
-
     padding-top: 10vh;
-    background: lightgreen;
     .page-sections {
-      padding-bottom: 0;
-      position: absolute;
-      border: 1px solid red;
-      top: 0;
-      left: 0;
+      position: relative;
       opacity: 0;
       height: 0;
       // width: 0%;
       transition: all 1.5s ease;
       z-index: 1;
-      padding-bottom: 30px;
     }
   }
 }
 .page.size-header {
   .main {
     .page-sections.visible-section {
-      position: relative;
-      background: pink;
       opacity: 1;
       height: 100%;
       z-index: 2;
+      padding: 0 0 10px;
       overflow-y: scroll;
+      .section-title {
+        padding: 10px 0;
+      }
     }
   }
 }

@@ -15,6 +15,10 @@
     width: 280px;
     position: relative;
     transition: all 0.8s ease;
+    @include tablet {
+      height: 600px;
+      width: 500px;
+    }
     span {
       position: absolute;
       color: $color-white;
@@ -28,8 +32,14 @@
       border-bottom-right-radius: 25px;
       border-top-left-radius: 25px;
       width: 100px;
+      font-family: $font-titles;
+
       &:hover {
         background: $color-black;
+      }
+      @include tablet {
+        width: 170px;
+        font-size: 30px;
       }
     }
     #link-home {
@@ -57,14 +67,19 @@
     height: 200px;
     position: absolute;
     transition: all 0.8s ease;
+    @include tablet {
+      height: 400px;
+    }
   }
 }
 
 .size-header {
   .header {
     position: fixed;
-
     height: 10vh;
+    @include tablet {
+      height: 80px;
+    }
     .header--menu {
       height: 100%;
       width: 100%;
@@ -95,6 +110,9 @@
     }
     .header--image {
       height: 50px;
+      @include tablet {
+        height: 70px;
+      }
     }
   }
 }
